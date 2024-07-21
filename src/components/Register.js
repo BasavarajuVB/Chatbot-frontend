@@ -10,7 +10,7 @@ const Register = ({ setUser }) => {
     const submitHandler = async (e) => {
         e.preventDefault();
 
-        const response = await fetch('https://chat-bot-backend-8vwi.onrender.com/api/users/register', {
+        const response = await fetch('https://chatbot-backend-x9vq.onrender.com/api/users/register', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username, password }),
